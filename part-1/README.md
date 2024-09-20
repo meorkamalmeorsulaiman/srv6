@@ -11,7 +11,7 @@ RP/0/RP0/CPU0:Y-P1#show configuration commit changes last 1
 Fri Sep 20 13:29:34.944 UTC
 Building configuration...
 !! IOS XR Configuration 7.9.1
-group CCIE-ISIS
+group GROUP-ISIS
  router isis '.*'
   is-type level-2-only
   address-family ipv4 unicast
@@ -38,7 +38,7 @@ group CCIE-ISIS
  !
 end-group
 router isis CORE
- apply-group CCIE-ISIS
+ apply-group GROUP-ISIS
  net 49.0002.0000.0201.0003.00
  address-family ipv4 unicast
  !
