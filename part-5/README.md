@@ -44,7 +44,7 @@ r>i172.222.6.0/24     NO SRv6 Sid                                 -            -
 Processed 3 prefixes, 3 paths
 ```
 
-Furthermore, you can see a new SID in the local table
+Furthermore, you can see a new SID in the local table for VRF `yellow`
 
 ```
 RP/0/RP0/CPU0:Y-PE1#show segment-routing srv6 sid 
@@ -55,7 +55,9 @@ Sat Sep 21 04:41:16.063 UTC
 SID                         Behavior          Context                           Owner               State  RW
 --------------------------  ----------------  --------------------------------  ------------------  -----  --
 2001:db8:0:4:1::            End (PSP/USD)     'default':1                       sidmgr              InUse  Y 
-2001:db8:0:4:40::           End.DT4           'yellow'                          bgp-65200           InUse  Y
+2001:db8:0:4:40::           End.DT4           'yellow'                          bgp-65200           InUse  Y 
+2001:db8:0:4:41::           End.X (PSP/USD)   [Gi0/0/0/1, Link-Local]           isis-CORE           InUse  Y 
+2001:db8:0:4:42::           End.X (PSP/USD)   [Gi0/0/0/0, Link-Local]           isis-CORE           InUse  Y 
 RP/0/RP0/CPU0:Y-PE1#show segment-routing srv6 sid 2001:db8:0:4:40:: detail 
 Sat Sep 21 04:45:35.116 UTC
 
