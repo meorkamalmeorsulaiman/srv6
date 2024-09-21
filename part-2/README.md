@@ -33,6 +33,8 @@ Sat Sep 21 03:36:31.684 UTC
 
 - Node Id: `XXXX:XXXX:XX00:0004::/64`
 
+The Node ID should match the last octet of IPv4 loppback address
+
 ```bash
 RP/0/RP0/CPU0:Y-PE1#show segment-routing srv6 manager | begin Summary
 Sat Sep 21 03:37:29.658 UTC
