@@ -183,7 +183,7 @@ Sat Sep 21 04:55:32.872 UTC
 % Network not in table
 ```
 
-SRv6 is a natively support over IPv6 and the SID itself use IPv6 addresses. This SID will then encapsulate in the packet soon will be the destination address in the packet header. Therefore it should be routeable and need to enable under IS-IS
+SRv6 is a natively support over IPv6 and the SID itself use IPv6 addresses. This SID will then encapsulate in the packet, the active segment will be the destination address in the packet header. Therefore it should be routeable and need to be enable under IS-IS
 
 ```
 router isis CORE
