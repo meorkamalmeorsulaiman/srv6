@@ -1,4 +1,4 @@
-### Enabling SRv6
+# Enabling SRv6
 
 We are going to enable the SRv6 on all the PE's, SRv6 use IPv6 address as the SID. In this lab we are going to use Full-length SID as the locator. Locator is a 64 bits long address that divided into 2:
 
@@ -32,6 +32,8 @@ Sat Sep 21 03:36:31.684 UTC
 ```
 
 - Node Id: `XXXX:XXXX:XX00:0004::/64`
+
+The Node ID should match the last octet of IPv4 loppback address
 
 ```bash
 RP/0/RP0/CPU0:Y-PE1#show segment-routing srv6 manager | begin Summary
