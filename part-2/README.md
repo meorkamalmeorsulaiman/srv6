@@ -100,7 +100,9 @@ RP/0/RP0/CPU0:Y-PE1#show segment-routing srv6 locator myLoc1 sid
 Sat Sep 21 03:42:09.652 UTC
 SID                         Behavior          Context                           Owner               State  RW
 --------------------------  ----------------  --------------------------------  ------------------  -----  --
-2001:db8:0:4:1::            End (PSP/USD)     'default':1                       sidmgr              InUse  Y
+2001:db8:0:4:1::            End (PSP/USD)     'default':1                       sidmgr              InUse  Y  
+2001:db8:0:4:41::           End.X (PSP/USD)   [Gi0/0/0/1, Link-Local]           isis-CORE           InUse  Y 
+2001:db8:0:4:42::           End.X (PSP/USD)   [Gi0/0/0/0, Link-Local]           isis-CORE           InUse  Y 
 ```
 
 That's all for this section, we move forward with enabling PE-CE routing in part 3.
