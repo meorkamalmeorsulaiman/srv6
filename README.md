@@ -19,7 +19,8 @@ These are the loopbacks
 
 The idea is to build an L3-VPN service over SRv6. At the end of this lab we will be having L3 reachability between CE2 and CE3. We will devide this learning into several parts:
 
-- Part 1: L3 reachability for IGP
-- Part 2: Enabling segment routing with IS-IS
-- Part 3: Establish VPNv4 connectivity between PE's and RR
-- Part 4: Enable SRv6 L3VPN service
+- Part 1: L3 Reachability over Loopback Addresses
+- Part 2: Enabling SRv6
+- Part 3: PE-CE Routing
+- Part 4: VPNv4 Neighborship
+- Part 5: SRv6 based IPv4 L3VPN
