@@ -1,4 +1,4 @@
-### Enabling SRv6
+# Enabling SRv6
 
 We are going to enable the SRv6 on all the PE's, SRv6 use IPv6 address as the SID. In this lab we are going to use Full-length SID as the locator. Locator is a 64 bits long address that divided into 2:
 
