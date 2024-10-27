@@ -1,4 +1,4 @@
-# srv6
+# SRv6
 
 This repository is the learning notes and exploration of mine into segment routing v6. Below is the lab topology
 
